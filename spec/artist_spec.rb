@@ -77,7 +77,7 @@ describe 'Artist' do
 
   describe '#print_songs' do
     it 'lists all of the artist\'s songs' do
-      artist = Artist.new('Michael Jackson')
+      artist = Artist.new('Michael Jacksond')
       dirty_diana = Song.new("Dirty Diana")
       billie_jean = Song.new("Billie Jean")
       piano_man = Song.new("Piano Man")
